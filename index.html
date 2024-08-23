@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <title>Music Player</title>
+</head>
+<body>
+
+    <div class="player">
+        <!-- 音乐插图 -->
+        <section class="img">
+            <img id="bg-img" src="" alt="">
+        </section>
+
+        <!-- 信息 -->
+        <section class="info">
+            <!-- 进度栏 -->
+            
+            <!-- 歌曲信息 -->
+            <div class="song-detail">
+                <span id="title"></span>
+                <span id="author"></span>
+            </div>
+            <!-- 按钮区域 -->
+            <div id="controls" class="controls">
+                <div class="play" style="width: 50%; margin: 0 auto;">
+                    <span><i id="pre" class="iconfont icon-shangyishou"></i></span>
+                    <span><i id="play" class="iconfont icon-24gf-play"></i></span>
+                    <span><i id="next" class="iconfont icon-xiayishou2"></i></span>
+        </section>
+
+        <!-- audio标签 -->
+        <section class="audio">
+            <audio id="audio" controls src="">
+            </audio>
+        </section>
+    </div>
+
+
+</body>
+
+<script src="./script.js"></script>
+</html>
