@@ -4,7 +4,7 @@ const doc = document;
 const songsList = [
     {
         id: 'xxx-01',
-        title: '失恋无罪',
+        title: '不吸烟 不醺酒 不滥情 不欺骗 不存在',
         author: '孤独万岁！！',
         path: './music/失恋无罪.mp3',
         bgPath: './image/1.jpg',
@@ -12,16 +12,16 @@ const songsList = [
     },
     {
         id: 'xxx-02',
-        title: '滥俗的歌',
-        author: '这是汉堡黄！不是蛋黄堡不是蟹黄堡不是汉堡包',
+        title: '这是汉堡黄！不是蛋黄堡不是蟹黄堡不是汉堡包',
+        author: '好肉麻啊',
         path: './music/滥俗的歌.mp3',
         bgPath: './image/2.jpg',
         time: 0
     },
     {
         id: 'xxx-03',
-        title: '痴人说梦',
-        author: '一曲痴人说梦,道尽天下痴人心',
+        title: '一曲痴人说梦,道尽天下痴人心',
+        author: '听的是故事还是自己',
         path: './music/痴人说梦.mp3',
         bgPath: './image/3.jpg',
         time: 0
